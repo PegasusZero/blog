@@ -1,8 +1,8 @@
 /* ---------------------------------
  *           Top Navigation
  * --------------------------------- */
-$navbar-item-padding-v ?= 1.25rem
-$navbar-item-padding-h ?= .75rem
+$navbar-item-padding-v ?= 1rem
+$navbar-item-padding-h ?= .85rem
 $navbar-item-margin-v ?= 0
 $navbar-item-margin-h ?= 0
 
@@ -33,6 +33,7 @@ $navbar-item-margin-h ?= 0
         align-items: center
         padding: $navbar-item-padding-v $navbar-item-padding-h
         margin: $navbar-item-margin-v $navbar-item-margin-h
+        font-size: larger
 
         &.is-active
             background-color: transparent
@@ -51,3 +52,4 @@ $navbar-item-margin-h ?= 0
 .navbar-logo
     img
         max-height: $logo-height
+        padding: auto
